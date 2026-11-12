@@ -1,0 +1,20 @@
+* { box-sizing: border-box; }
+body { margin: 0; background: #eef2f6; color: #17283e; font: 16px/1.6 Arial, sans-serif; }
+.resume { max-width: 850px; margin: 36px auto; padding: 58px 68px; background: #fff; box-shadow: 0 12px 40px #1e365014; }
+.hero { padding-bottom: 24px; border-bottom: 2px solid #d9e4ef; }
+.eyebrow { color: #167a78; font-size: .76rem; font-weight: 700; letter-spacing: .18em; }
+h1 { margin: 5px 0 3px; font-size: 2.7rem; line-height: 1.15; }
+.intro { max-width: 610px; color: #53657a; font-size: 1.1rem; }
+.contact { color: #53657a; font-size: .9rem; }
+a { color: #167a78; text-decoration: none; }
+.contact span { padding: 0 8px; color: #a6b5c4; }
+section { padding-top: 14px; }
+h2 { color: #167a78; font-size: .85rem; letter-spacing: .13em; text-transform: uppercase; }
+article { margin: 16px 0 20px; } h3 { margin: 0; font-size: 1.04rem; } p { margin: 5px 0; }
+.row { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+time,.muted { color: #718096; font-size: .9rem; }
+.tag { color: #167a78; font-size: .82rem; } .skills { display: flex; flex-wrap: wrap; gap: 9px; }
+.skills span { padding: 3px 10px; border-radius: 20px; background: #e8f3f2; color: #236461; font-size: .9rem; }
+footer { margin-top: 25px; padding-top: 15px; border-top: 1px solid #e5ebf0; color: #8593a3; font-size: .82rem; }
+@media (max-width: 650px) { .resume { margin: 0; padding: 32px 22px; } h1 { font-size: 2.2rem; } .row { align-items: flex-start; flex-direction: column; gap: 1px; } .contact span { padding: 0 3px; } }
+@media print { body { background: #fff; } .resume { margin: 0 auto; padding: 25px; box-shadow: none; } a { color: inherit; } }
